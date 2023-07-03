@@ -1,0 +1,13 @@
+{
+  "name": "multi-place-setup",
+  "description": "",
+  "scripts": {
+    "watch:game": "rbxtsc -w -p ./places/game",
+    "serve:game": "rojo serve ./places/game"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "^2.1.0-types.1",
+    "@rbxts/types": "^1.0.703",
+    "typescript": "^5.1.6"
+  }
+}
